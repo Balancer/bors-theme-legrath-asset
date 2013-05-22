@@ -1,0 +1,284 @@
+form.big { margin: 20px; }
+form.big label { font-size: 20pt; }
+form.big input { font-size: 20pt; }
+
+.wa { width: auto !important }
+/* Тестировать на http://admin.aviaport.ru/events/fast */
+.w100p { width: 99.99% !important }
+.ie .w100p { width: 98% !important }
+.w50p, .half  { width: 49.99% !important }
+.ie .w50p, .ie .half  { width: 49% !important }
+.w33p, .third { width: 33.32% !important }
+.ie .w33p, .ie .third { width: 32% !important }
+.right { text-align: right; }
+small, .small { font-size: 0.8em !important; }
+.f8pt { font-size: 8pt !important; }
+.f10pt { font-size: 10pt !important; }
+
+.gray	{ color: gray	!important; }
+.red	{ color: red	!important; }
+.orange	{ color: orange	!important; }
+.yellow	{ color: yellow	!important; }
+.green	{ color: green	!important; }
+.blue	{ color: blue	!important; }
+.navy	{ color: navy	!important; }
+
+.bg_pink { background-color: pink; }
+
+.b { font-weight: bold; }
+.s { text-decoration: line-through; }
+.nobr { white-space: nowrap; }
+
+div.clear {	height: 0px !important; clear: both; }
+
+table.null, table.null td,  table.null th {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	vertical-align: top !important;
+}
+
+pre {
+	white-space: pre-wrap;       /* css-3 */
+	font-family: monospace !important;
+}
+
+xmp {
+	white-space: pre;
+	font-family: monospace !important;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	border: none;
+}
+
+.yellow_box {
+	margin: 4px 0;
+	padding: 4px 8px;
+	background-color: #ffd;
+	border: 1px solid #eec;
+}
+
+.green_box {
+	margin: 4px 0;
+	padding: 4px 8px;
+	background-color: #dfd;
+	border: 1px solid #8f8;
+}
+
+.red_box {
+	margin: 4px 0;
+	padding: 4px 8px;
+	background-color: #fdd;
+	border: 1px solid #f88;
+}
+
+.gray_box {
+	margin: 4px 0;
+	padding: 4px 8px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+
+.s { text-decoration: line-through; }
+
+img.flag {
+	vertical-align: middle;
+	margin-right: 2px;
+}
+
+.float-half {
+	float: left;
+	width: 48%;
+}
+
+.float-rhalf {
+	float: left;
+	width: 48%;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.rspace {
+	margin-right: 20px;
+}
+
+.rpspace {
+	padding-right: 20px;
+}
+
+.hspace { margin-left: 20px; margin-right: 20px; }
+
+a.link-as-text { text-decoration: none; }
+a.link-as-text:hover { text-decoration: underline; }
+
+fieldset.admin {
+	margin-top: 10px;
+}
+
+fieldset.admin legend {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div.img_200x200 {
+	width: 200px;
+	border: 1px solid;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+
+.snip {
+	color: #999;
+	font-size: 8pt;
+	font-family: sans-serif;
+}
+
+div.dated_list {
+	clear:both;
+	margin-bottom: 8px;
+}
+
+div.dated_list div.timestamp {
+	float: left;
+	font: bold 10px sans-serif;
+	padding-top: 8px;
+}
+
+div.dated_list div.title {
+	margin-left: 8ex;
+}
+
+div.dated_list div.snip {
+	margin-left: 20ex;
+}
+
+div.thumb_up, div.thumb_down {
+	background-position: left 6px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+div.thumb_up { background-image: url(http://balancer.ru/_bors/i/thumb_up.gif) }
+div.thumb_down { background-image: url(http://balancer.ru/_bors/i/thumb_down.gif) }
+
+input { border: 1px solid; }
+
+ul.none {
+	list-style: none;
+}
+
+li.imaged {
+	background-repeat: no-repeat;
+	list-style: none;
+	margin-left: -18px;
+	padding-left: 18px;
+	background-position: 0 1px;
+}
+
+li.type-archive{background-image: url(/_bors/i16/obj-types/archive.png)}
+li.type-categories{background-image: url(/_bors/i16/obj-types/categories.png)}
+li.type-clients{background-image: url(/_bors/i16/obj-types/clients.png)}
+li.type-closed{background-image: url(/_bors/i16/obj-types/closed.png)}
+li.type-commercial{background-image: url(/_bors/i16/obj-types/commercial.png)}
+li.type-company{background-image: url(/_bors/i16/obj-types/company.png)}
+li.type-delete{background-image: url(/_bors/i16/delete.png)}
+li.type-edit{background-image: url(/_bors/i16/edit.png)}
+li.type-exchange-rate{background-image: url(/_bors/i16/misc/exchange_rate.png)}
+li.type-export-xls{background-image: url(/_bors/i16/file-types/excel.png)}
+li.type-image{background-image: url(/_bors/i16/obj-types/image.png)}
+li.type-important{background-image: url(/_bors/i16/obj-types/important.png)}
+li.type-incorrect{background-image: url(/_bors/i16/obj-types/incorrect.png)}
+li.type-logout{background-image: url(/_bors/i16/logout.gif)}
+li.type-newspaper{background-image: url(/_bors/i16/obj-types/newspaper.png)}
+li.type-page{background-image: url(/_bors/i16/obj-types/page.png)}
+li.type-search{background-image: url(/_bors/i16/search.png)}
+li.type-tvbox{background-image: url(/_bors/i16/obj-types/tvbox.png)}
+li.type-unknown{background-image: url(/_bors/i16/obj-types/unknown.png)}
+li.type-unplaced{background-image: url(/_bors/i16/obj-types/unplaced.png)}
+li.type-unpublished{background-image: url(/_bors/i16/obj-types/unpublished.png)}
+li.type-video{background-image: url(/_bors/i16/obj-types/video.png)}
+
+div.right-menu h2, div.right-menu p, div.right-menu ul {
+	margin-top: 0;
+	margin-bottom: 4px;
+	line-height: 1.3em;
+}
+div.right-menu li {
+	margin-left: 16px;
+}
+
+div.right-menu li.imaged {
+	margin-left: 4px;
+	padding-left: 20px;
+	background-position: 0 4px;
+}
+
+div.right-menu h2 { font-size: 1em !important; }
+div.right-menu li { font-size: 10pt !important; }
+
+.columns_3 {
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
+.columns_4 {
+	column-count: 4;
+	-moz-column-count: 4;
+	-webkit-column-count: 4;
+}
+
+th.sort_asc {
+	padding-right: 16px;
+	background: url(/_bors/i16/asc.gif) right 7px no-repeat;
+}
+
+th.sort_desc {
+	padding-right: 16px;
+	background: url(/_bors/i16/desc.gif) right 7px no-repeat;
+}
+
+th.sort_ascdesc {
+	padding-right: 16px;
+	background: url(/_bors/i16/asc-desc.gif) right 5px no-repeat;
+}
+
+dl.box {
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 0px 4px 0px;
+    padding: 0px;
+}
+
+dl.box dt, dl.box dt a {
+    margin: 0px;
+    color: white;
+    background-color: #9bd;
+    padding: 1px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+dl.box dd {margin: 4px; padding: 4px; }
+
+dl.w200 dd { margin: 2px; font-size: xx-small; padding: 2px; }
+
+dl.box dt a {color: #ffffd0;}
+
+.box {
+	border: 1px solid #ccc;
+	margin: 0 0 4px 0;
+	padding: 4px;
+}
