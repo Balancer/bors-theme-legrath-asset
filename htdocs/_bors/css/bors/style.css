@@ -170,8 +170,8 @@ div.thumb_up, div.thumb_down {
 	padding-left: 20px;
 }
 
-div.thumb_up { background-image: url(http://balancer.ru/_bors/i/thumb_up.gif) }
-div.thumb_down { background-image: url(http://balancer.ru/_bors/i/thumb_down.gif) }
+div.thumb_up { background-image: url(//www.balancer.ru/_bors/i/thumb_up.gif) }
+div.thumb_down { background-image: url(//www.balancer.ru/_bors/i/thumb_down.gif) }
 
 ul.none {
 	list-style: none;
