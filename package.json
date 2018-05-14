@@ -1,0 +1,15 @@
+{
+  "name": "bors-theme-legrath-asset",
+  "version": "0.0.3",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balancer/bors-theme-legrath-asset.git"
+  },
+  "author": "Balancer <balancer@balancer.ru>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Balancer/bors-theme-legrath-asset/issues"
+  },
+  "homepage": "https://github.com/Balancer/bors-theme-legrath-asset"
+}
