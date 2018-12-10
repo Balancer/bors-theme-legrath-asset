@@ -1,0 +1,15 @@
+{
+    "name": "balancer-bors-theme-legrath-asset",
+    "version": "v0.0.4",
+    "main": [
+    	"_bors/css/bors/*.css",
+    	"_bors/i/*.png",
+    	"_bors/i/*.gif",
+    	"_bors/i16/*.png",
+    	"_bors/i16/*.gif",
+    	"_bors/images/*.gif",
+    	"_bors/images/*.png",
+    	"_bors/images/*/*.gif",
+    	"_bors/images/*/*.png"
+    ]
+}
